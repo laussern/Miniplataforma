@@ -1,0 +1,174 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('icomoon.eot');
+	src:url('icomoon.eot?#iefix') format('embedded-opentype'),
+		url('icomoon.woff') format('woff'),
+		url('icomoon.ttf') format('truetype'),
+		url('icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"]:before {
+*/
+
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: 'icomoon';
+  font-style: normal;
+  speak: none;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;	
+}
+  
+
+.icon-phone:before {
+  content: "\21";
+}
+.icon-headphone-s:before {
+  content: "\22";
+}
+.icon-twitter:before {
+  content: "\23";
+}
+.icon-twitter-2:before {
+  content: "\24";
+}
+.icon-twitter-3:before {
+  content: "\25";
+}
+.icon-facebook:before {
+  content: "\26";
+}
+.icon-facebook-2:before {
+  content: "\27";
+}
+.icon-facebook-3:before {
+  content: "\28";
+}
+.icon-location:before {
+  content: "\29";
+}
+.icon-pencil:before {
+  content: "\2a";
+}
+.icon-bell:before {
+  content: "\2b";
+}
+.icon-envelope:before {
+  content: "\2c";
+}
+.icon-question-mark:before,
+.icon-pre:before{
+  content: "\2e";
+}
+.icon-heart-fill:before {
+  content: "\2d";
+}
+.icon-document-alt-stroke:before {
+  content: "\2f";
+}
+.icon-document-stroke:before{
+  content: "\30";
+}
+.icon-star:before{
+  content: "\31";
+}
+.icon-nuevas:before {
+  content: "\32";
+}
+.icon-noresueltas:before {
+  content: "\33";
+}
+.icon-mejores:before {
+  content: "\34";
+}
+.icon-Video:before {
+  content: "\35";
+}
+.icon-res:before {
+  content: "\37";
+}
+.icon-link:before {
+  content: "\38";
+}
+.icon-book:before,
+.icon-Lectura:before {
+  content: "\36";
+}
+.icon-comments:before {
+  content: "\39";
+}
+.icon-comments-2:before {
+  content: "\3a";
+}
+.icon-file:before,
+.icon-Evaluacion:before {
+  content: "\3b";
+}
+.icon-mic:before,
+.icon-Live:before {
+  content: "\3c";
+}
+.icon-thumbs-up:before {
+  content: "\3d";
+}
+.icon-thumbs-down:before {
+  content: "\3e";
+}
+.icon-menu:before {
+	content: "\3f";
+}
+.icon-list:before {
+	content: "\40";
+}
+.icon-angle-left:before {
+	content: "\f104";
+}
+.icon-angle-right:before {
+	content: "\f105";
+}
+.icon-angle-up:before {
+	content: "\f106";
+}
+.icon-angle-down:before {
+	content: "\f107";
+}
+.icon-chevron-left:before {
+	content: "\f053";
+}
+.icon-chevron-right:before {
+	content: "\f054";
+}
+.icon-checkmark:before {
+	content: "\e000";
+}
+.icon-checkmark-2:before {
+	content: "\e001";
+}
+.icon-sort-down:before {
+	content: "\f0dd";
+}
+.icon-sort-up:before {
+	content: "\f0de";
+}
+.icon-camTimeline:before {
+	content: "\e002";
+}
+.icon-arrowTimelie:before {
+	content: "\e003";
+}

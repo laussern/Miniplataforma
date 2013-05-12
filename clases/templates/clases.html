@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head lang="es">
+	<title>Bugs, sugerencias y preguntas | Mejorando.la</title>
+	<meta charset="utf-8"/>
+	<link rel="shortcut icon" href="static/images/favicon.ico" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+	<link rel="stylesheet" type="text/css" href="/static/fonts/style.css">
+	<link rel="stylesheet" href="/static/css/libs.css?v=1"/>
+	<link rel="stylesheet" href="/static/css/plataforma-base.css?v=2.6"/>
+	<link rel="stylesheet" href="/static/css/plataforma-timeline.css?v=6.0"/>
+
+	<script src="/static/js/jquery.min.js"></script>
+	<script src="/static/js/main.js"></script>
+</head>
+<body class="prettify-desert">
+	<header>
+	    <div class="mejor">
+	        <h1>
+	          	<a href="/" title="mejorando.la">
+	        		<img src="/static/images/logos/mejorandola.png" alt="mejorando.la" height="42" width="212" />
+	            </a>
+	        </h1>
+	        <a id="maestros" href="http://maestrosdelweb.com" target="_blank" title="maestros del web">
+	           	<img src="/static/images/logos/maestros.png" alt="maestros del web" height="35" width="35" />
+	        </a>
+	        <a id="cristalab" href="http://cristalab.com" target="_blank" title="cristalab">
+	           	<img src="/static/images/logos/cristalab.png" alt="cristalab" height="35" width="35" />
+	        </a>
+	        </div>
+	        <a id="display-menu"></a>
+	        <nav class="menu">
+		        <ul>
+					<li>
+						<a class="user-name" href="/usuarios/kaln28" title="kaln28">kaln28 <span class="puntos">+2000 puntos</span> <img class="avatar-user" src="/static/avatares/kaln286251.png" alt="kaln28" height="30" width="30"/></a>
+					</li>
+	            </ul>
+            </nav>
+    </header>
+    <div id="wrapper">
+        <div class="overlay"></div>  
+    	<div id="libro">
+        <div class="titulo">
+            <h2>Bugs, sugerencias y preguntas</h2>
+        </div>
+
+        <div class="slides" id="slides">
+        	<section class="lecciones" id="lecciones">
+				<div class="materiales">
+					<article id="clases">
+						{% for clase in clases %}
+					        <article class="leccion  LEE activado" data-fech="1352265255" data-nat="1">
+					            <div class="izq">
+					                <div class="imagen">
+					                    <img src="/static/img/{{ clase.thumb }}" alt="{{ clase.nombre}}">
+					                </div>
+					            </div>
+					            <div class="der visitado ">
+					                <div class="descripcion">
+					                    <h2 class="tit">{{ clase.nombre }}</h2>
+					                    <p>{{ clase.descripcion }}</p>
+					                </div>
+	            				</div>
+
+					            <span class="flecha icon-arrow-right"></span>
+					            
+					            <a class="material_enlace" data-id="{{ clase.id }}"></a>  
+			        		</article>
+		        		{% endfor %}
+	        		</article>
+	    			<section id="lectura-container">
+			            <div class="opciones re-timeline primer_nivel">
+			                <a id="regresar-clases" class="icono-regresar icon-arrowTimeline"></a>
+			                <div class="nombre">
+			                    <h3 id="titulo-clase" class="lec_titulos">Recordatorio: Este NO es un curso, es un area solo para bugs y sugerencias</h3>
+			                </div>
+			            </div>
+
+			            <article class="lec">
+			            	<div class="lectura">
+			            		<p id="contenido">
+
+			            		</p>
+			            	</div>
+			            </article>
+        			</section>
+				</div>
+    		</section>
+    	</div>
+    </div>
+
+    <script src="/static/js/plataforma-home.js?v=1.1"></script>
+	<script src="/static/js/mensajes_privados.js?v=1.2"></script>
+	<script src="/static/js/plataforma-editor.js?v=1.5"></script>
+	<script src="/static/js/plataforma-timeline.js?v=3.5"></script>
+	<!--<script src="/static/js/plataforma-discusion.js?v=3.3"></script>-->
+</body>
+</html>
